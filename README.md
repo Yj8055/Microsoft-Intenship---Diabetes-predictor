@@ -1,7 +1,28 @@
-# Diabetes Prediction - Deployment
-![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.8.5](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)
 
-• This repository consists of files required to deploy a ___Web App___ created with ___Flask___ on ___Microsoft___ Azure.# diabetes_predictor
-The project helps the user to identify whether someone is suffering from diabetes by simply inputting certain values like BMI, Glucose level, Blood pressure etc. with the help of a Kaggle database.
+## Diabetes Predictor
+> Predict Diabetes using Machine Learning.
 
-By using the statistical data about how certain aspects like BMI, Glucose level, Insulin level, age etc. impact if an individual is prone to diabetes or not, the project will be able to tell the user if the person has diabetes or not by entering those values. So in a way the project will help in monitoring the likelihood of someone developing diabetes. The project can be extended to include other diseases prediction which I will incorporate later down the road. 
+In this project, our objective is to predict whether the patient has diabetes or not based on various features like *Glucose level, Insulin, Age, BMI*. We will perform all the steps from *Data gathering to Model deployment.* During Model evaluation, we compare various machine learning algorithms on the basis of accuracy_score metric and find the best one. Then we create a web app using Flask which is a python micro framework.
+
+
+> Read more about it in my [Blogpost](https://medium.com/@adityamankar09/building-a-diabetes-predictor-4702b99bc7e4).
+
+# **Screenshot**
+
+![](screenshot.jpg)
+
+# Installation
+
+- Clone this repository and unzip it.
+
+- After downloading, `cd` into the `flask` directory.
+
+- Begin a new virtual environment with Python 3 and activate it.
+
+- Install the required packages using 
+   `pip install -r requirements.txt`
+
+- Execute the command:
+   `python app.py`
+
+- Open http://127.0.0.1:5000/ in your browser.
