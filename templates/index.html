@@ -4,10 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Diabetes Predictor</title>
-        <link rel="shortcut icon" href="{{ url_for('static', filename='diabetes-favicon.ico') }}">
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
-        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        
         <style>
             body {
               padding: 25px;
@@ -22,14 +19,25 @@
             .light-mode {
               background-color: white;
               color: black;
-            }
+            } 
+            body {
+  background-color: black;
+}
+
+h2 {
+  background-color: black;
+}
+
+div {
+  background-color: black;
+}
           </style>
     </head>
 
     <body>
 
         <!-- Website Title -->
-    	<div class="container">
+    	<div style="color:red" class="container">
             <h2 class='container-heading'><span class="heading_font">Diabetes Predictor</span></h2>
             <div class='description'>
     			<p>It's just a prediction; do consult with a Doctor 😊</p>
@@ -37,7 +45,7 @@
     	</div>
 
         <!-- Text Area -->
-    	<div class="ml-container">
+    	<div style="color:red" class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
                 <input class="form-input" type="text" name="pregnancies" placeholder="Number of Pregnancies eg. 0"><br>
                 <input class="form-input" type="text" name="glucose" placeholder="Glucose (mg/dL) eg. 80"><br>
@@ -53,7 +61,7 @@
     	</div>
 
         <!-- Footer -->
-       <div class='footer'>
+       <div  class='footer'>
            <div class="contact">
                <a target="_blank" href="https://github.com/Yj8055"><i class="fab fa-github fa-lg contact-icon"></i></a>
                <a target="_blank" href="https://www.linkedin.com/in/yogesh-joshi-b25968205/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
