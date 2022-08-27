@@ -1,28 +1,25 @@
-
-## Diabetes Predictor
-> Predict Diabetes using Machine Learning.
-
-In this project, our objective is to predict whether the patient has diabetes or not based on various features like *Glucose level, Insulin, Age, BMI*. We will perform all the steps from *Data gathering to Model deployment.* During Model evaluation, we compare various machine learning algorithms on the basis of accuracy_score metric and find the best one. Then we create a web app using Flask which is a python micro framework.
+<div align="center">
+<h1> A Fully Functional Restaurant Website </h1>
 
 
-> Read more about it in my [Blogpost](https://medium.com/@adityamankar09/building-a-diabetes-predictor-4702b99bc7e4).
+[Live Preview](https://rainyroof.vercel.app/)
 
-# **Screenshot**
+Don't forget to :star: the repo if you like it :blush:
 
-![](screenshot.jpg)
 
-# Installation
 
-- Clone this repository and unzip it.
+<br>
 
-- After downloading, `cd` into the `flask` directory.
+![img 1](img/1.png)
+![img 2](img/2.png)
+![img 3](img/3.png)
+![img 4](img/4.png)
+![img 5](img/5.png)
+![img 6](img/6.png)
+![img 7](img/7.png)
+![img 8](img/8.png)
+![img 9](img/9.png)
 
-- Begin a new virtual environment with Python 3 and activate it.
+</div>
 
-- Install the required packages using 
-   `pip install -r requirements.txt`
-
-- Execute the command:
-   `python app.py`
-
-- Open http://127.0.0.1:5000/ in your browser.
+[![Stargazers repo roster for @FahimFBA/RainyRoof_Restaurant_Website](https://reporoster.com/stars/FahimFBA/RainyRoof_Restaurant_Website)](https://github.com/FahimFBA/RainyRoof_Restaurant_Website/stargazers)
